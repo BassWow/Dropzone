@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+// Main Materialize Sass
+@import "materialize-css/sass/materialize";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.progress {
+  height: 20px;
+}
+.dropzone {
+  margin: 5vh auto;
+  display: flex;
+
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border: 5px dashed #cacaca;
+  
+  span {
+    font-size: 3rem;
+  }
+}
+
+.myimage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  align-self: center;
+  margin: 1vw;
+  flex: 1;
+}
+
+.highlite {
+  border: 5px dashed $secondary-color;
+  cursor: copy;
+}
